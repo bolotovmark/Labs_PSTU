@@ -27,7 +27,6 @@ a = x / 100;
 b = (x % 100) / 10;
 c = x % 10;
 
-cout << a << b << c << endl;
 while (f == false)
 {
 if ((a==b)||(b==c)||(a==c)) {
