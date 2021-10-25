@@ -11,6 +11,7 @@
 using namespace std;
 
 int x, a, b, c;
+bool f(false);
 
 int main() {
 setlocale(LC_ALL, "Russian");
@@ -25,6 +26,22 @@ cin >> x;
 a = x / 100;
 b = (x % 100) / 10;
 c = x % 10;
+
+cout << a << b << c << endl;
+while (f == false)
+{
+if ((a==b)||(b==c)||(a==c)) {
+cout<<"Есть повторяющиеся числа\nВведите число без повторяющихся знаков\n";
+cin>>x;
+a = x / 100;
+b = (x % 100) / 10;
+c = x % 10;
+}
+else {
+f=true;
+}
+
+}
 
 cout <<"Вывод комбинаций"<< endl << a << b << c << endl;
 cout << a << c << b << endl;
