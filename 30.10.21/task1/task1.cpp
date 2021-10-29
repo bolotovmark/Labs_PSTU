@@ -8,13 +8,13 @@
 using namespace std;
 
 int x, a, b, c;
-bool f(false), t(false);
+bool f(false);
 
 int main() {
     setlocale(LC_ALL, "Russian");
     cout << "Введите трёхзначное число" << endl;
 
-    while (f == false and t == false){
+    while (f == false){
         cin >> x;
         a = x / 100;
         b = (x % 100) / 10;
