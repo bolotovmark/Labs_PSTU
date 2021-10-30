@@ -1,5 +1,5 @@
-#Реализация Алгоритмов Маркова  
-##Задача №1
+# Реализация Алгоритмов Маркова  
+## Задача №1
 ```python
 import time
 
@@ -25,7 +25,7 @@ def sort(rand_string):
 
 sort(str(input()))
 ```
-##Задача №2
+## Задача №2
 ```python
 import time
 
@@ -45,7 +45,7 @@ def sort(rand_string):
 
 sort(str(input()))
 ```
-##Задача №3
+## Задача №3
 ```python
 import time
 
