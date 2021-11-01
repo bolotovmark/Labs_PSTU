@@ -7,27 +7,35 @@
 
 using namespace std;
 
-int x, a, b, c;
+int x, a, b, c, t;
 bool f(false);
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    cout << "Введите трёхзначное число" << endl;
 
-    while (f == false){
+    while (t!=5) {
+        cout << "Введите трёхзначное число без повторяющихся цифр"<<endl;
         cin >> x;
         a = x / 100;
         b = (x % 100) / 10;
         c = x % 10;
-        if (((x > 100) and (x < 1000)) and (((a!=b) and (b!=c) and (a!=c)))){
-
-            f = true;
+        t = 0;
+        if (x<1000){
+            ++t;
         }
-        else {
-            cout << "Введено не трёхзначное число или есть повторяющиеся цифры\nПопробуйте ещё раз!\n" << endl;
+        if (x>100){
+            ++t;
+        }
+        if (a!=b){
+            ++t;
+        }
+        if (b!=c){
+            ++t;
+        }
+        if (a!=c){
+            ++t;
         }
     }
-
     cout <<"Вывод комбинаций"<< endl << a << b << c << endl;
     cout << a << c << b << endl;
     cout << b << a << c << endl;
@@ -35,11 +43,23 @@ int main() {
     cout << c << a << b << endl;
     cout << c << b << a << endl << endl;
 
-    if ((a > b) and (a > c)) cout <<"Максимальное значение "<< a<<max(b,c)<<min(b,c);
+    if (a > b){
+        if(a > c){
+            cout <<"Максимальное значение "<< a<<max(b,c)<<min(b,c);
+        }
+    }
 
-    if ((b > a) and (b > c)) cout<<"Максимальное значение "<<b<<max(a,c)<<min(a,c);
+    if (b > a){
+        if(b > c){
+             cout<<"Максимальное значение "<<b<<max(a,c)<<min(a,c);
+        }
+    }
 
-    if ((c>a) and (c>b)) cout<<"Максимальное значение "<<c<<max(a,b)<<min(a,b);
+    if (c>a){
+        if(c>b){
+            cout<<"Максимальное значение "<<c<<max(a,b)<<min(a,b);
+        }
+    }
 
 
     return 0;
