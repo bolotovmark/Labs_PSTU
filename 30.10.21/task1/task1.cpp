@@ -19,7 +19,7 @@ int main() {
         a = x / 100;
         b = (x % 100) / 10;
         c = x % 10;
-        if (((x > 100) and (x < 999)) and (((a!=b) and (b!=c) and (a!=c)))){
+        if (((x > 100) and (x < 1000)) and (((a!=b) and (b!=c) and (a!=c)))){
 
             f = true;
         }
