@@ -8,7 +8,6 @@
 using namespace std;
 
 int x, a, b, c, t;
-bool f(false);
 
 int main() {
     setlocale(LC_ALL, "Russian");
