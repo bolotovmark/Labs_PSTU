@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Cake/Desktop/labs git/04.11.21/task2/task2.cpp" "C:/Users/Cake/Desktop/labs git/04.11.21/task2/cmake-build-debug/CMakeFiles/task2.dir/task2.cpp.obj"
+  "C:/Users/Cake/Desktop/labs git/04.11.21/task2.2/task2.cpp" "C:/Users/Cake/Desktop/labs git/04.11.21/task2.2/cmake-build-debug/CMakeFiles/task2.dir/task2.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -3,12 +3,16 @@
 //
 #include <iostream>
 
+
+using namespace std;
 int main()
 {
     int a = 10;
-    std::cout << a << '\n'; // выводим значение переменной a
-    std::cout << &a << '\n'; // выводим адрес переменной a
-    std::cout << *&a << '\n'; /// выводим значение ячейки памяти переменной a
+    int *address; // (*address - это указатель на значение - int)
+    cout << a << endl; // выводим значение переменной a
+    cout << &a << endl; // выводим адрес переменной a
+    address = &a; // записываем адрес переменной а в переменную address
+    cout << *address << endl; // выводим значение ячейки памяти переменной a
 
     return 0;
 }

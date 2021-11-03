@@ -5,10 +5,11 @@
 
 using namespace std;
 
-
+int i;
 
 int main(){
-    int i = 1;
-    cout<<++i*i++<<endl;
+    i = 1; //инициализируем в функции
+    cout<<++i * i++;
+    //В выводе получаем 4
     return 0;}
 
