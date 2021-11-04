@@ -1,0 +1,4 @@
+"C:\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\Cake\Desktop\labs git\04.11.21\task4.2"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Cake/Desktop/labs git/04.11.21/task4.2/cmake-build-debug
