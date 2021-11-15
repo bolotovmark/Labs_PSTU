@@ -10,7 +10,7 @@ int x;
 int main(void){
     setlocale(LC_ALL, "Rus");
 
-    cout<<"Введите цифру";
+    cout<<"Введите цифру: ";
     cin>>x;
     switch (x) {
         case 0:
@@ -43,6 +43,8 @@ int main(void){
         case 9:
             cout<<"9";
             break;
+        default:
+            cout<<"Ошибка! Введите цифру!";
     }
     return 0;}
 

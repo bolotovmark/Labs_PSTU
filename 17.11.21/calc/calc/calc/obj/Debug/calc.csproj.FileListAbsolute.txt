@@ -1,0 +1,11 @@
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\bin\Debug\calc.exe.config
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\bin\Debug\calc.exe
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\bin\Debug\calc.pdb
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\obj\Debug\calc.csproj.AssemblyReference.cache
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\obj\Debug\calc.csproj.SuggestedBindingRedirects.cache
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\obj\Debug\calc.Form1.resources
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\obj\Debug\calc.Properties.Resources.resources
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\obj\Debug\calc.csproj.GenerateResource.cache
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\obj\Debug\calc.csproj.CoreCompileInputs.cache
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\obj\Debug\calc.exe
+C:\Users\Cake\Desktop\labs git\17.11.21\calc\calc\calc\obj\Debug\calc.pdb

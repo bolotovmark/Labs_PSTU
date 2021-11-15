@@ -30,7 +30,7 @@ int main(void){
             break;
         case 4:
             cout<<"Итог умножение для чисел "<<x<< " и "<<y<<": "<<x*y<<endl;
-
+            break;
         default:
             cout<<"Введено неверное значение";
             break;
