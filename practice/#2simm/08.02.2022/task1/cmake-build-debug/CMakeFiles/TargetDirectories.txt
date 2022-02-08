@@ -1,0 +1,3 @@
+C:/Users/Cake/Desktop/labs git/practice/#2simm/08.02.2022/task1/cmake-build-debug/CMakeFiles/task1.dir
+C:/Users/Cake/Desktop/labs git/practice/#2simm/08.02.2022/task1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Cake/Desktop/labs git/practice/#2simm/08.02.2022/task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
