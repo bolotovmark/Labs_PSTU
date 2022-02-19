@@ -32,7 +32,7 @@ int main(){
         a[c] = a[j-1];
         a[j-1] = min;
     }
-    for (int i = 0; i < 10; i++){
+    for(int i = 0; i < 10; i++){
         cout << a[i]<<" ";
     }
 
