@@ -4,7 +4,7 @@
 #include <iostream>
 
 using namespace std;
-int n = 8;
+int n = 20;
 
 bool tracer(int x1, int y1, int x2, int y2){
     int dx, dy;
@@ -172,7 +172,6 @@ int main(){
                 }
             }
         }
-
     }
 
     cout<<endl<<c;
