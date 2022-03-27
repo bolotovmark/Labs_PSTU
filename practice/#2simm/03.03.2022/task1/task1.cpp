@@ -91,7 +91,7 @@ void deletesimple(){
 int main(){
     SetConsoleOutputCP(CP_UTF8);
 
-    int a[n] = {11, 23, 3, 5, 55, 32, 55, 11, 85, 23};
+    int a[n] = {11, 23, 3, 5, 55, 32, 55, 11, 22, 25};
     for(int i=0; i<n; ++i){
         addsimple(a[i]);
     }
