@@ -42,13 +42,16 @@ struct hash_table{
     void pop(string id, int size);
     void find_index(string id, int size);
 };
+
 int get_r_num(){
     return rand() % 10;
 }
+
 string create_home(){
     string out;
     return streets[get_r_num()];
 }
+
 string create_ID(){
     string out;
     for(int i = 0; i<8;++i){
@@ -87,12 +90,14 @@ void show_info(person temp){
     cout<<"-------------------"<<endl;
 
 }
+
 void show_hash_table(hash_table* table, int size){
     for(int i=0;i<size;++i){
         show_info(table->array[i]);
     }
 
 }
+
 int main(){
     int size;
     string key;
@@ -116,13 +121,8 @@ int main(){
     cin.get();
     getline(cin, key);
     table.find_index(key, size);
-
-
-
-
-
-
 }
+
 int hash_f(string id, int size){
     double a = ((sqrt(5)-1)/2) * stoi(id.substr(0, 8));
     double c = size * (a - static_cast<int>(a));
@@ -190,5 +190,4 @@ void hash_table::find_index(string id, int size) {
         cout<<"Такого ID нет в таблице"<<endl;
         return;
     }
-
 }
