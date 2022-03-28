@@ -1,58 +1,82 @@
-//
-// Created by Cake on 22.03.2022.
-//
 #include <iostream>
-#include <windows.h>
 #include <string>
+#include <windows.h>
 
 using namespace std;
 
-void check(const char* str0, const char* str1){
-    int n0=0, n1=0;
-    while(*str1!='\0'){
-        ++n1;
-        cout<<*str1;
-        ++str1;
-    }
-    while(*str0!='\0'){
-        ++n0;
-        cout<<*str0;
-        ++str0;
-    }
-    if(n0>n1){
-        cout<<"Шаблон больше строки";
-        return;
-    }
-    else{
-        --str1;
-        --str0;
-        bool f = false;
-        while((*str1!='\0')){
-            if(*str1==*str0){
-                while((*str0!='\0')){
 
-                }
-            }
-            --str1;
-        }
-    }
-
-}
+int search(string to_find, string str);
 
 int main(){
-    int n;
-    string str0, str1;
-    string a;
-    SetConsoleOutputCP(CP_UTF8);
-    cout<<"Введите кол-во проверок:";
-    cin>>n;
-    getline(cin, str0);
-    cout<<"Введите шаблон:";
-    getline(cin, str0);
-    for(int i=0;i<n;++i){
-        cout<<endl<<"Введите строку:";
-        getline(cin, str1);
-        check(str0.data(), str1.data());
-    }
 
+    SetConsoleOutputCP(CP_UTF8);
+    string to_find;
+    string str;
+
+    do
+    {
+        cout << "Введите строку, в которой нужно найти подстроку: ";
+        cin >> str;
+    } while (str == "");
+    cout << endl;
+    do
+    {
+        cout << "Введите строку, которую нужно найти: ";
+        cin >> to_find;
+    } while (to_find == "");
+    int index = search(to_find, str);
+    bool f = false;
+    while (index!=-1){
+        str.erase(index, to_find.length());
+        index = search(to_find, str);
+        f = true;
+    }
+    if(!f){
+        cout<<"Вхождение не найденно"<<endl;
+    }
+    cout << str << endl << endl;
+    return 0;
+}
+
+int search(string to_find, string str)
+{
+    int to_find_length = to_find.length();
+    int str_length = str.length();
+    if (str_length < to_find_length) return -1;
+    int arr[256];
+    for (int i = 0; i < 256; i++)
+    {
+        arr[i] = to_find_length; // заполнение массива длиной ключа
+    }
+    for (int i = to_find_length - 2; i >= 0; i--) // с предпоследнего до первого
+    {
+        if (arr[(int)to_find[i]] == to_find_length) // если еще не поменялся вес элемента
+        {
+            arr[(int)to_find[i]] = to_find_length - i - 1; // то присвоение удаления от конца слова, начиная с 1 (предпоследний элемент)
+        }
+    }
+    int index = to_find_length - 1; // индекс элемента строки, который совпадает с концом ключа
+    while (index < str_length) // пока ключ физически может существовать
+    {
+        if (to_find[to_find_length - 1] != str[index]) // если последние элементы не равны
+        {
+            index += arr[str[index]]; // то смещение на по таблице
+        }
+        else
+        {
+            for (int i = to_find_length - 1; i >= 0; i--) // с последнего до начала
+            {
+                if (to_find[i] != str[index - to_find_length + i + 1]) // если встречаем несовпадение
+                {
+                    index += arr[str[index - to_find_length + i + 1]]; // то сдвиг по таблице
+                    break;
+                }
+                else if (i == 0) // иначе если строка кончилась
+                {
+                    return index - to_find_length + 1; // есть совпадение, возвращение индекса первого элемента вхождения
+                }
+            }
+        }
+    }
+    return -1; // если не найдено - возврат -1
 }
