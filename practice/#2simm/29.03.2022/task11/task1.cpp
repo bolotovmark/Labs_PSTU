@@ -26,7 +26,7 @@ public:
 
     void show(){
         cout<<"Выбранные границы ==> first: "<<first;
-        cout<<" second: "<<second<<endl;
+        cout<<"second: "<<second<<endl;
     }
 };
 

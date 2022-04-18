@@ -3,7 +3,6 @@
 //
 #include <iostream>
 #include <windows.h>
-#include <math.h>
 #include <string>
 
 using namespace std;
