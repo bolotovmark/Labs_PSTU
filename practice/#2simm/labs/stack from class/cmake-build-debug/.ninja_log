@@ -1,0 +1,21 @@
+# ninja log v5
+1	599	6721949043667375	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+605	959	6721949047187622	stack_from_class.exe	a0dd308a67183e33
+5	663	6721950473929249	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+664	1191	6721950479099629	stack_from_class.exe	a0dd308a67183e33
+9	990	6721953452913160	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+991	1264	6721953455663383	stack_from_class.exe	a0dd308a67183e33
+10	773	6721954077422073	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+774	1116	6721954080882374	stack_from_class.exe	a0dd308a67183e33
+6	593	6721956358803160	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+594	904	6721956361913387	stack_from_class.exe	a0dd308a67183e33
+8	618	6721957320098978	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+619	878	6721957322681581	stack_from_class.exe	a0dd308a67183e33
+5	582	6721957868957209	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+582	903	6721957872177430	stack_from_class.exe	a0dd308a67183e33
+5	569	6721958189938991	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+570	872	6721958192919215	stack_from_class.exe	a0dd308a67183e33
+14	592	6721959869939124	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+592	887	6721959872873744	stack_from_class.exe	a0dd308a67183e33
+5	694	6721960540494968	CMakeFiles/stack_from_class.dir/stack.cpp.obj	af4c16bd47b6c935
+695	1176	6721960545315320	stack_from_class.exe	a0dd308a67183e33

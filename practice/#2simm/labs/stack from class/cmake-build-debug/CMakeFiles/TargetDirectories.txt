@@ -1,0 +1,3 @@
+C:/Users/Cake/Desktop/labs git/practice/#2simm/labs/stack from class/cmake-build-debug/CMakeFiles/stack_from_class.dir
+C:/Users/Cake/Desktop/labs git/practice/#2simm/labs/stack from class/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Cake/Desktop/labs git/practice/#2simm/labs/stack from class/cmake-build-debug/CMakeFiles/rebuild_cache.dir
