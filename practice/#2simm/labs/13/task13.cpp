@@ -2,8 +2,9 @@
 // Created by Cake on 26.04.2022.
 //
 #include <iostream>
-#include <list>
+#include <vector>
 #include <algorithm>
+#include <windows.h>
 
 
 using namespace std;
@@ -66,6 +67,22 @@ public:
         this->second = temp.second+ this->second;
     }
 
+    bool operator==(const Pair& temp){
+        if((this->first==temp.first)&&(this->second==temp.second)){return true;}
+        else{return false;}
+    }
+
+    bool operator<(const Pair& temp){
+        double sum_temp = (double)temp.first + temp.second;
+        double sum_this = (double)this->first + this->second;
+        if(sum_temp<sum_this){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
     void random(){
         first = rand() % 10;
         second = rand() % 10;
@@ -73,53 +90,65 @@ public:
 };
 
 
-ostream& operator<<(ostream& stream, list<Pair>& l){
+ostream& operator<<(ostream& stream, vector<Pair>& l){
     for_each(l.begin(), l.end(), [](Pair& k){cout<<k<<" ";});
-}
+return stream;}
+
 int main(){
     srand(time(NULL));
-    list<Pair> v(3);
-    list<Pair>::iterator first = v.begin();
-    list<Pair>::iterator last = v.end();
+    SetConsoleOutputCP(CP_UTF8);
+    vector<Pair> v(5);
 
-    generate(first, last, [](){
+    generate(v.begin(), v.end(), [](){
         Pair p;
         p.random();
         return p;
     });
     cout<<v;
 
-    Pair sum;
-    for_each(first, last, [&sum](Pair& p) {sum+=p;});
-    cout<<endl<<sum;
-    sum.set((sum.get_f()/v.size()), (sum.get_s()/v.size()));
-    v.push_back(sum);
-    cout<<endl<<v;
-
-    cout<<endl;
-
     Pair max(0, 0);
-    for_each(first, last, [&max](Pair& p){
+    for_each(v.begin(), v.end(), [&max](Pair& p){
         if(((double)p.get_f() + p.get_s()) > ((double)max.get_f() + max.get_s())){
             max.set(p.get_f(), p.get_s());
         }
     });
-    cout<<endl<<max;
+    //cout<<endl<<max;
 
     Pair min;
     min+=max;
-    for_each(first, last, [&min](Pair& p){
+    for_each(v.begin(), v.end(), [&min](Pair& p){
         if(((double)p.get_f() + p.get_s()) < ((double)min.get_f() + min.get_s())){
             min.set(p.get_f(), p.get_s());
         }
     });
-    cout<<endl<<min;
+    //cout<<endl<<min;
 
-    for_each(first, last, [&max, &min](Pair& p){
-        p+=max;
-        p+=min;
+    Pair sum;
+    for_each(v.begin(), v.end(), [&sum](Pair& p) {sum+=p;});
+    sum.set((sum.get_f()/v.size()), (sum.get_s()/v.size()));
+
+    //cout<<endl<<sum;
+
+    cout<<endl<<"Введите позицию: ";
+    int i;
+    cin>>i;
+    auto pos = v.begin();
+
+    vector<Pair> v2(1, Pair(min.get_f(),min.get_s()));
+    v.insert(next(pos, i-1),v2.begin(), v2.end());
+    cout<<endl<<v;
+
+    auto forward_iter = remove_if(v.begin(), v.end(), [&sum](Pair& p){
+        return sum<p;
+    });
+    v.erase(forward_iter, v.end());
+    cout<<endl<<v;
+
+    for_each(v.begin(), v.end(), [&max](Pair& p){
+       p.set((p.get_f()/max.get_f()), (p.get_s()/max.get_s()));
     });
     cout<<endl<<v;
-}
+
+return 0;}
 
 
