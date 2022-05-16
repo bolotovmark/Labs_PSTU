@@ -1,0 +1,16 @@
+﻿  OpenGL_on_a_Windows_Form.cpp
+C:\Users\Cake\source\repos\graph\graph\class_graph.h(111,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(50,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(51,1): warning C4305: инициализация: усечение из "double" в "GLfloat"
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(53,1): warning C4305: инициализация: усечение из "double" в "GLfloat"
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(74,1): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(88,18): warning C4244: инициализация: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(92,1): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(107,1): warning C4305: инициализация: усечение из "double" в "GLfloat"
+C:\Users\Cake\source\repos\graph\graph\Form1.h(2152,1): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Cake\source\repos\graph\graph\Form1.h(2155,12): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Cake\source\repos\graph\graph\Form1.h(2156,12): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  OpenGL_on_a_Windows_Form.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  graph.vcxproj -> C:\Users\Cake\source\repos\graph\x64\Release\graph.exe

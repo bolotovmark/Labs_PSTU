@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_9: phony || CMakeFiles/9.dir
 
 build CMakeFiles/9.dir/task9.cpp.obj: CXX_COMPILER__9_Debug C$:/Users/Cake/Desktop/labs$ git/practice/#2simm/labs/9/task9.cpp || cmake_object_order_depends_target_9
   DEP_FILE = CMakeFiles\9.dir\task9.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\9.dir
   OBJECT_FILE_DIR = CMakeFiles\9.dir
   TARGET_COMPILE_PDB = CMakeFiles\9.dir\

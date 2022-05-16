@@ -1,0 +1,4 @@
+C:\Users\Cake\source\repos\graph\graph\x64\Debug\graph.vcxproj.AssemblyReference.cache
+C:\Users\Cake\source\repos\graph\graph\x64\Debug\graph.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Cake\source\repos\graph\graph\x64\Debug\graph.Form1.resources
+C:\Users\Cake\source\repos\graph\graph\x64\Debug\graph.vcxproj.GenerateResource.cache

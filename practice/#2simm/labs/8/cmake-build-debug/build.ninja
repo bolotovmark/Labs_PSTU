@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_8: phony || CMakeFiles/8.dir
 
 build CMakeFiles/8.dir/task8.cpp.obj: CXX_COMPILER__8_Debug C$:/Users/Cake/Desktop/labs$ git/practice/#2simm/labs/8/task8.cpp || cmake_object_order_depends_target_8
   DEP_FILE = CMakeFiles\8.dir\task8.cpp.obj.d
-  FLAGS = -g
+  FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\8.dir
   OBJECT_FILE_DIR = CMakeFiles\8.dir
   TARGET_COMPILE_PDB = CMakeFiles\8.dir\

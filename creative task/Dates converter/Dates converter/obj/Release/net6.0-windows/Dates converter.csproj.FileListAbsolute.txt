@@ -1,0 +1,17 @@
+C:\Users\Cake\source\repos\Dates converter\Dates converter\bin\Release\net6.0-windows\Dates converter.exe
+C:\Users\Cake\source\repos\Dates converter\Dates converter\bin\Release\net6.0-windows\Dates converter.deps.json
+C:\Users\Cake\source\repos\Dates converter\Dates converter\bin\Release\net6.0-windows\Dates converter.runtimeconfig.json
+C:\Users\Cake\source\repos\Dates converter\Dates converter\bin\Release\net6.0-windows\Dates converter.dll
+C:\Users\Cake\source\repos\Dates converter\Dates converter\bin\Release\net6.0-windows\Dates converter.pdb
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates converter.csproj.AssemblyReference.cache
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates_converter.Form1.resources
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates converter.csproj.GenerateResource.cache
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates converter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates converter.AssemblyInfoInputs.cache
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates converter.AssemblyInfo.cs
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates converter.csproj.CoreCompileInputs.cache
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates converter.dll
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\refint\Dates converter.dll
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates converter.pdb
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\Dates converter.genruntimeconfig.cache
+C:\Users\Cake\source\repos\Dates converter\Dates converter\obj\Release\net6.0-windows\ref\Dates converter.dll

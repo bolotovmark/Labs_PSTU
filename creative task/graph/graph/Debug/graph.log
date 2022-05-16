@@ -1,0 +1,8 @@
+﻿  OpenGL_on_a_Windows_Form.cpp
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(69,1): warning C4305: инициализация: усечение из "double" в "GLfloat"
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(71,1): warning C4305: инициализация: усечение из "double" в "GLfloat"
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(105,18): warning C4244: инициализация: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\Cake\source\repos\graph\graph\OpenGL.h(122,1): warning C4305: инициализация: усечение из "double" в "GLfloat"
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+Debug\OpenGL_on_a_Windows_Form.obj : fatal error LNK1112: тип компьютера модуля "x86" конфликтует с типом целевого компьютера "x64"

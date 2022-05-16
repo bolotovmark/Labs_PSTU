@@ -1,0 +1,5 @@
+C:\Users\Cake\Desktop\exe\ca\Dates converter.exe
+C:\Users\Cake\Desktop\exe\ca\Dates converter.dll
+C:\Users\Cake\Desktop\exe\ca\Dates converter.deps.json
+C:\Users\Cake\Desktop\exe\ca\Dates converter.runtimeconfig.json
+C:\Users\Cake\Desktop\exe\ca\Dates converter.pdb

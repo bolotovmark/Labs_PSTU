@@ -85,7 +85,7 @@ public:
 
     void random(){
         first = rand() % 10;
-        second = rand() % 10;
+        second = (rand() % 101) / 10.0;
     }
 };
 
