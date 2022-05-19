@@ -7,5 +7,6 @@
 - ``Решение не открывается в Visual Studio`` - скорее всего у вас VS более поздняя версия 
 null- (решение написано на версии VS 2022)
 - ``Проект с решением задачи коммивояжера не запускается из-за множества ошибок`` - скорее всего у вас не установлены дополнительные библиотеки opengl **freeglut в частности**
-- ``Обрезаются края программы``
-null- ![](https://sun9-84.userapi.com/s/v1/ig2/DCoVEVn2L9lVLreFu0cO1_WPFtBnf5YwtznEyGXlRKkXwT81lIY-3toDo2wrgS69wqBbmQ2_7jmdDuXJBz4ZtTGf.jpg?size=596x684&quality=96&type=album)
+- ``Обрезаются края программы`` <br/> ![](https://sun9-84.userapi.com/s/v1/ig2/DCoVEVn2L9lVLreFu0cO1_WPFtBnf5YwtznEyGXlRKkXwT81lIY-3toDo2wrgS69wqBbmQ2_7jmdDuXJBz4ZtTGf.jpg?size=596x684&quality=96&type=album)
+  <br/> Не знаю с чем связана эта ошибка. Но как бы это странно это не звучало, но из-за количества мониторов. При подключение 2 мониторов всё отображается корректно (можете посмотреть в презентационном видео), но при одном мониторе края обрезаются. <br/>
+``fix: В свойствах формы FormBorderStyle поменять на Sizable``
